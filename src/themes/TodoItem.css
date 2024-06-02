@@ -1,0 +1,53 @@
+/* Estilo base para los elementos de la lista de tareas */
+.todo-item {
+    display: flex; /* Flexbox para el diseño de la caja flexible */
+    justify-content: space-between; /* Espacio entre los elementos hijos */
+    align-items: center; /* Alinea los elementos hijos en el centro verticalmente */
+    background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borde con color blanco semitransparente */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio debajo de cada elemento */
+    color: #fff; /* Color del texto blanco */
+    transition: background 0.3s ease; /* Transición suave para el cambio de fondo */
+}
+
+/* Estilo para los elementos de la lista de tareas cuando están completados */
+.todo-item.completed {
+    text-decoration: line-through; /* Texto tachado */
+    opacity: 0.6; /* Opacidad reducida */
+}
+
+/* Estilos compartidos para los botones de "ready" y "delete" */
+.ready-button, .deleted-button {
+    background: none; /* Sin fondo */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor de puntero para indicar interactividad */
+    display: flex; /* Flexbox para el diseño de la caja flexible */
+    align-items: center; /* Alinea los elementos hijos en el centro verticalmente */
+    justify-content: center; /* Centro horizontal de los elementos hijos */
+    padding: 5px; /* Espaciado interno */
+    border-radius: 50%; /* Bordes completamente redondeados */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+}
+
+/* Estilo adicional cuando el botón "ready" se encuentra en estado de "hover" */
+.ready-button:hover {
+    background-color: rgba(13, 163, 8, 0.658); /* Fondo verde semitransparente */
+}
+
+/* Estilos para cuando los botones están en estado de "focus" */
+.ready-button:focus, .deleted-button:focus {
+    outline: none; /* Sin contorno cuando está enfocado */
+}
+
+/* Estilo adicional cuando el botón "delete" se encuentra en estado de "hover" */
+.deleted-button:hover {
+    background-color: rgba(163, 8, 8, 0.459); /* Fondo rojo semitransparente */
+}
+
+/* Estilos específicos para los iconos dentro de los botones "ready" y "delete" */
+.ready-button .fa-check, .deleted-button .fa-times {
+    color: black; /* Color del icono negro */
+    font-size: 16px; /* Tamaño de la fuente para los iconos */
+}

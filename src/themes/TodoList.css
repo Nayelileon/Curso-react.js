@@ -1,0 +1,20 @@
+.List {
+    background: rgba(255, 255, 255, 0.1); /* Establece un fondo blanco semitransparente con 10% de opacidad */
+    border-radius: 10px; /* Redondea las esquinas del contenedor con un radio de 10px */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);  /* Aplica una sombra alrededor del contenedor para darle profundidad */
+    padding: 20px; /* Añade un relleno interno de 20px alrededor del contenido del contenedor */
+    width: 70%; /* Establece el ancho del contenedor al 70% del contenedor padre */
+    backdrop-filter: blur(10px); /* Aplica un efecto de desenfoque al fondo del contenedor */
+    max-height: 390px; /* Establece la altura máxima del contenedor de la lista */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando sea necesario */
+    
+}
+
+.List ul {
+    list-style: none; /* Elimina los puntos o números de la lista de elementos */
+    padding: 0; /* Elimina el relleno interno del elemento ul */
+    margin: 0; /* Elimina el margen externo del elemento ul */
+}
+
+
+

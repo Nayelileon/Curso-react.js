@@ -1,0 +1,32 @@
+.search-container {
+    display: flex; /* Establece el contenedor como un flexbox */
+    justify-content: center; /* Centra los elementos horizontalmente dentro del contenedor */
+    width: 350px; /* Establece el ancho del contenedor */
+    max-width: 400px; /* Establece el ancho máximo del contenedor */
+    margin-bottom: 20px; /* Agrega un margen inferior de 20px */
+}
+
+.search-container input {
+    width: 100%; /* Establece el ancho del input al 100% del contenedor */
+    padding: 10px 20px; /* Agrega relleno (padding) de 10px arriba/abajo y 20px izquierda/derecha */
+    border-radius: 25px; /* Establece un borde redondeado con un radio de 25px */
+    border: 2px solid rgba(255, 255, 255, 0.3); /* Establece un borde sólido de 2px con un color RGBA */
+    background: rgba(255, 255, 255, 0.6); /* Establece un color de fondo RGBA */
+    color: #000000f6; /* Establece el color del texto */
+    font-size: 16px; /* Establece el tamaño de fuente a 16px */
+    outline: none; /* Elimina el contorno (outline) al enfocar el input */
+    transition: all 0.3s ease; /* Agrega una transición suave a todas las propiedades durante 0.3 segundos */
+}
+
+.search-container input::placeholder {
+    color: rgba(12, 11, 11, 0.74); /* Establece el color del marcador de posición del input */
+}
+
+.search-container input:focus {
+    background: rgba(255, 255, 255, 0.2); /* Cambia el color de fondo del input al enfocarlo */
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Cambia el color del borde del input al enfocarlo */
+}
+
+.search-container input:hover {
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Cambia el color del borde del input al pasar el cursor sobre él */
+}

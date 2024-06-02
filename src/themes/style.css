@@ -1,0 +1,43 @@
+.app {
+    /* Establece una imagen de fondo para el contenedor principal */
+    background-image: url('../assets/image/desktop-wallpaper-relaxing-relaxing-anime.jpg');
+    /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
+    background-size: cover;
+    /* Centra la imagen de fondo dentro del contenedor */
+    background-position: center;
+    /* Evita que la imagen de fondo se repita */
+    background-repeat: no-repeat;
+    /* Establece la altura del contenedor principal al 100% del viewport */
+    height: 100vh;
+    /* Establece el ancho del contenedor principal al 100% */
+    width: 100%;
+    /* Utiliza flexbox para la disposición de los elementos hijos */
+    display: flex;
+    /* Alinea los elementos hijos en una fila */
+    flex-direction: row;
+}
+
+.adition {
+    /* Establece el ancho del contenedor 'adition' al 50% */
+    width: 50%;
+    /* Utiliza flexbox para la disposición de los elementos hijos */
+    display: flex;
+    /* Centra los elementos hijos verticalmente */
+    align-items: center;
+    /* Centra los elementos hijos horizontalmente */
+    justify-content: center;
+}
+
+.visual {
+    /* Establece el ancho del contenedor 'visual' al 50% */
+    width: 50%;
+    /* Utiliza flexbox para la disposición de los elementos hijos */
+    display: flex;
+    /* Centra los elementos hijos verticalmente */
+    align-items: center;
+    /* Alinea los elementos hijos en una columna */
+    flex-direction: column;
+    /* Añade un margen superior de 60px al contenedor 'visual' */
+    margin-top: 60px;
+}
+

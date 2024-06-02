@@ -1,0 +1,76 @@
+.adicion {
+    width: 60%;  /* Establece el ancho del elemento al 60% del contenedor padre */
+    background: rgba(255, 255, 255, 0.1);  /* Fondo semi-transparente blanco */
+    border-radius: 10px;  /* Bordes redondeados con un radio de 10px */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);  /* Sombra de caja para darle profundidad */
+    padding: 20px;  /* Espaciado interno de 20px */
+    backdrop-filter: blur(10px);  /* Aplica un desenfoque de fondo */
+    height: 75%;  /* Establece la altura al 75% del contenedor padre */
+}
+
+.adicion h1 {
+    color: #fff;  /* Color de texto blanco */
+    margin-left: 120px;  /* Margen izquierdo de 120px */
+}
+
+.adicion-container {
+    display: flex;  /* Usa el modelo de caja flexible para el diseño del contenedor */
+    align-items: center;  /* Alinea verticalmente los elementos al centro */
+    background: rgba(255, 255, 255, 0.1);  /* Fondo semi-transparente blanco */
+    border: 1px solid rgba(255, 255, 255, 0.3);  /* Borde semi-transparente blanco */
+    border-radius: 10px;  /* Bordes redondeados con un radio de 10px */
+    padding: 20px;  /* Espaciado interno de 20px */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);  /* Sombra de caja para darle profundidad */
+    transition: background 0.3s ease, border 0.3s ease;  /* Transiciones suaves para cambios en fondo y borde */
+}
+
+.adicion-container:hover {
+    background: rgba(255, 255, 255, 0.2);  /* Cambia el fondo a más transparente al pasar el cursor */
+    border: 1px solid rgba(255, 255, 255, 0.5);  /* Cambia el borde a más transparente al pasar el cursor */
+}
+
+.adicion-container input {
+    flex-grow: 1;  /* Permite que el input crezca para ocupar el espacio disponible */
+    padding: 10px;  /* Espaciado interno de 10px */
+    border: 1px solid rgba(255, 255, 255, 0.3);  /* Borde semi-transparente blanco */
+    border-radius: 25px;  /* Bordes redondeados con un radio de 25px */
+    background: rgba(194, 186, 186, 0.795);  /* Fondo semi-transparente gris */
+    color: #fff;  /* Color de texto blanco */
+    font-size: 16px;  /* Tamaño de fuente de 16px */
+    outline: none;  /* Quita el borde de enfoque predeterminado */
+    transition: all 0.3s ease;  /* Transiciones suaves para todos los cambios */
+}
+
+.adicion-container input::placeholder {
+    color: rgba(255, 255, 255, 0.7);  /* Color del texto del placeholder semi-transparente blanco */
+}
+
+.adicion-container input:focus {
+    background: rgba(255, 255, 255, 0.2);  /* Fondo más transparente al enfocar */
+    border: 1px solid rgba(255, 255, 255, 0.5);  /* Borde más transparente al enfocar */
+}
+
+.adicion-container button {
+    display: flex;  /* Usa el modelo de caja flexible para el diseño del botón */
+    align-items: center;  /* Alinea verticalmente los elementos al centro */
+    background-color: #b35b87;  /* Color de fondo morado */
+    color: #fff;  /* Color de texto blanco */
+    border: none;  /* Sin borde */
+    border-radius: 25px;  /* Bordes redondeados con un radio de 25px */
+    padding: 10px 20px;  /* Espaciado interno vertical de 10px y horizontal de 20px */
+    margin-left: 10px;  /* Margen izquierdo de 10px */
+    cursor: pointer;  /* Cambia el cursor a una mano apuntando */
+    font-size: 16px;  /* Tamaño de fuente de 16px */
+    transition: background-color 0.3s ease;  /* Transición suave para el color de fondo */
+}
+
+.adicion-container button svg {
+    margin-right: 8px;  /* Margen derecho de 8px */
+    fill: none;  /* Sin relleno */
+    stroke: #fff;  /* Color de trazo blanco */
+    stroke-width: 2;  /* Ancho del trazo de 2 */
+}
+
+.adicion-container button:hover {
+    background-color: #85416e;  /* Cambia el fondo a un morado más oscuro al pasar el cursor */
+}

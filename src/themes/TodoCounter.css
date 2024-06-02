@@ -1,0 +1,31 @@
+/* Estilo para el contenedor del contador de tareas */
+.todo-counter {
+    margin-bottom: 20px; /* Añade un margen inferior de 20px para separar el contenedor de otros elementos */
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+/* Estilo para el elemento h1 dentro del contenedor .todo-counter */
+.todo-counter h1 {
+    font-size: 24px; /* Establece el tamaño de fuente a 1.5 rem */
+    color: #cfc2c2;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: color 0.5s ease;
+}
+
+/* Estilo para el elemento h1 cuando se pasa el ratón sobre él */
+.todo-counter h1:hover {
+    color: #da71ba; /* Cambia el color del texto a un tono rosa/lila cuando se pasa el ratón sobre él */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Aumenta la sombra de texto y su desenfoque cuando se pasa el ratón sobre él */
+}
+
+.counter-appear {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.counter-appear-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms, transform 500ms;
+}
