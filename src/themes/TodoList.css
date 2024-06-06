@@ -5,7 +5,7 @@
     padding: 20px; /* Añade un relleno interno de 20px alrededor del contenido del contenedor */
     width: 70%; /* Establece el ancho del contenedor al 70% del contenedor padre */
     backdrop-filter: blur(10px); /* Aplica un efecto de desenfoque al fondo del contenedor */
-    max-height: 390px; /* Establece la altura máxima del contenedor de la lista */
+    max-height: 310px; /* Establece la altura máxima del contenedor de la lista */
     overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando sea necesario */
     
 }
